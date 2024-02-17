@@ -9,6 +9,9 @@ import ComponentPurity from './components/ComponentPurity'
 import RespondingEvent from './components/RespondingEvent'
 import UseStatehook1 from './components/UseStatehook1'
 import SubmitNewuiCome from './components/SubmitNewuiCome'
+import Incrementset from './components/Incrementset'
+import Objectrelated from './components/Objectrelated'
+import Arrrelated from './components/Arrrelated'
 //  for normla impot {under} and default import {with out}.
  function App() {
    return (
@@ -58,7 +61,21 @@ import SubmitNewuiCome from './components/SubmitNewuiCome'
 {/*9 end */}
 
 {/*10 start */}
-<SubmitNewuiCome/>
+{/* <SubmitNewuiCome/> */}
+
+
+{/*11 strat */}
+{/* <Incrementset/> */}
+{/*11 end */}
+
+{/*12 strat */}
+{/* <Objectrelated/> */}
+{/*12 end */}
+
+{/* 13 start  */}
+<Arrrelated/>
+
+
       </>
    )
  }
