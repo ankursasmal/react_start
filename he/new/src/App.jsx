@@ -34,6 +34,10 @@ import Arrrelated from './components/Arrrelated'
       {/* 4 start  */}
       {/* a casa a,b,c,d ka direct use */}
 {/* <PropsPass a="ankur" b={"sasmal"} c="4" d={5}/> */}
+{/* <PropsPass prop={a="ankur" b={"sasmal"} c="4" d:{5}}/>    sab props ka 1 sanga obj{} under
+a pass kora jaba na error sab alada alda pass korta hoba
+*/}
+
 {/* props ka indirect use */}
 {/* <PropsPass a="ankur" b={"sasmal"} c="4" d={5}/> */}
 {/*  props through obj pass*/}
@@ -73,7 +77,7 @@ import Arrrelated from './components/Arrrelated'
 {/*12 end */}
 
 {/* 13 start  */}
-<Arrrelated/>
+{/* <Arrrelated/> */}
 
 
       </>
